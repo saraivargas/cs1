@@ -1,7 +1,16 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
+class Vehicle {
+   protected:
+    string brand;
+    string color;
+    int speed;
+
+    // look up virtual function
+};
+
 int main() {
-  cout << "Hello";
-  return 0;
+    return 0;
 }
