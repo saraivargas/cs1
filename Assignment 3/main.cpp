@@ -8,7 +8,14 @@ class Vehicle {
     string color;
     int speed;
 
-    // look up virtual function
+    public:
+    virtual toString show() = 0;
+
+class Car: public Vehicle {
+    public:
+        
+}
+
 };
 
 int main() {
