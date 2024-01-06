@@ -1,1 +1,1 @@
-g++ main.cpp -o main
+g++ main.cpp Bike.cpp Car.cpp Truck.cpp -o main
